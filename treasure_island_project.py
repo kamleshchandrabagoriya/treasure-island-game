@@ -1,4 +1,3 @@
-# Welcome to the Treasure island project!
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -21,6 +20,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/______/_
 *******************************************************************************
 ''')
+# Welcome to the Treasure island project!
+
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 choice1 = input('You\'re at a crossroad, where do you want to go? '
@@ -47,5 +48,5 @@ if choice1 == "left":
         else:
             print("You choose a door that doesn't exist. Game Over.")
             
-    else:
-        print("You fell in to a hole. Game Over.")
+else:
+    print("You fell in to a hole. Game Over.")
